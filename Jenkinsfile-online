@@ -17,7 +17,7 @@ pipeline {
         DOCKERHUB_NAMESPACE = '840459885'
         GITHUB_ACCOUNT = 'baiwanjin'
         APP_NAME = 'devops-java-sample'
-        SONAR_CREDENTIAL_ID = 'jenkins-id'
+        SONAR_CREDENTIAL_ID = 'sonar-token'
     }
 
     stages {
